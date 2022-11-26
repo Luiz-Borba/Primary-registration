@@ -1,7 +1,8 @@
 body {
   background-color: #820ad1;
   margin: 0px;
-  padding: 0px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #container {
   width: 30%;
@@ -27,4 +28,26 @@ input {
 a {
   list-style: none;
   text-decoration: none;
+}
+#registrese {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#container2 {
+  width: 30%;
+  margin: 10% auto;
+  background-color: white;
+  height: 750px;
+  border-radius: 10px;
+  visibility: hidden;
+  position: absolute;
+}
+#fechar {
+  margin-left: 90%;
+  margin-top: 10px;
 }
