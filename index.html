@@ -14,22 +14,22 @@
         <input type="password" placeholder="Digite seu CPF" />
         <input type="password" placeholder="Digite sua senha" />
         <button>CONTINUAR</button>
-        <a href="#"><p>Esqueci minha senha ></p></a>
-        <a href="#"><p>Ainda não sou cliente ></p></a>
+        <a href="#" onclick="recuperarSenha()"><p>Esqueci minha senha ></p></a>
+        <a href="#"><p onclick="registrarse()">Ainda não sou cliente ></p></a>
       </div>
     </div>
     <div id="container2">
       <a href=""><h1 id="fechar">X</h1></a>
       <div id="registrese">
         <h1>Faça seu cadastro</h1>
-        <input type="text" placeholder="Digite seu nome" />
-        <input type="main" placeholder="Digite seu email" />
-        <input type="number" placeholder="Digite seu CPF" />
-        <input type="number" placeholder="Digite seu telefone" />
-        <input type="password" placeholder="crie sua senha" />
-        <input type="password" placeholder="Digite sua senha novamente" />
-        <button>CONTINUAR</button>
-        <a href="#"><p>Entrar</p></a>
+        <input type="text" placeholder="Digite seu nome"id="name" />
+        <input type="main" placeholder="Digite seu email" id="mail" />
+        <input type="number" placeholder="Digite seu CPF" id="CPF"/>
+        <input type="number" placeholder="Digite seu telefone" id="fone" />
+        <input type="password" placeholder="crie sua senha" id="senha1"/>
+        <input type="password" placeholder="Digite sua senha novamente" id="senha2"/>
+        <button onclick="receber.receber()">CONTINUAR</button>
+        <a href="#" onclick="fechar()"><p>Entrar</p></a>
       </div>
     </div>
   </body>

@@ -6,10 +6,11 @@ body {
 }
 #container {
   width: 30%;
-  margin: 10% auto;
+  margin-left: 30%;
   background-color: white;
   height: 550px;
   border-radius: 10px;
+  position: absolute;
 }
 #login {
   display: flex;
@@ -40,14 +41,21 @@ a {
 }
 #container2 {
   width: 30%;
-  margin: 10% auto;
+  margin: 4% auto;
   background-color: white;
   height: 750px;
   border-radius: 10px;
   visibility: hidden;
-  position: absolute;
 }
 #fechar {
   margin-left: 90%;
   margin-top: 10px;
+}
+#recuperarSenha {
+  width: 30%;
+  margin: 4% auto;
+  background-color: white;
+  height: 550px;
+  border-radius: 10px;
+  visibility: hidden;
 }
