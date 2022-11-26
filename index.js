@@ -26,9 +26,18 @@ class Receber {
     let email = document.getElementById("mail").value;
     let senha = document.getElementById("CPF").value;
     let fone = document.getElementById("fone").value;
-    
-
-    alert("teste");
+    let obj = {
+      nome: name,
+      mail: email,
+      passwor: senha,
+      telefone: fone,
+    };
+    dados.push(obj)
+  }
+  cadastrar(){
+    this.enviar()
+    console.log(this.obj)
   }
 }
 let receber = new Receber();
+console.log()
