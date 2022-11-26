@@ -1,0 +1,30 @@
+body {
+  background-color: #820ad1;
+  margin: 0px;
+  padding: 0px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#container {
+  width: 30%;
+  margin: 10% auto;
+  background-color: white;
+  height: 550px;
+  border-radius: 10px;
+}
+#login {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+button,
+input {
+  width: 80%;
+  height: 50px;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
