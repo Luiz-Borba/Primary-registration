@@ -24,12 +24,12 @@ class Receber {
   enviar() {
     let name = document.getElementById("name").value;
     let email = document.getElementById("mail").value;
-    let senha = document.getElementById("CPF").value;
+    let cpf = document.getElementById("CPF").value;
     let fone = document.getElementById("fone").value;
     let obj = {
       nome: name,
       mail: email,
-      passwor: senha,
+      CPF: cpf,
       telefone: fone,
     };
     dados.push(obj)
