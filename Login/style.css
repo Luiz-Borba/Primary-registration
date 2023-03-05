@@ -6,6 +6,7 @@
 body {
   background-color: #820ad1;
   display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 main {
   width: 450px;
@@ -19,10 +20,12 @@ div {
   flex-direction: column;
   width: 90%;
   margin: 20px auto;
+  gap: 5px;
 }
 input {
   height: 40px;
   border-radius: 10px;
+  padding: 10px;
 }
 button {
   border-radius: 10px;
@@ -30,6 +33,7 @@ button {
   width: 150px;
   font-size: 20px;
   margin: 10px auto;
+  cursor: pointer;
 }
 a {
   margin: 10px auto;

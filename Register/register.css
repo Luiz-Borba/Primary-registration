@@ -6,6 +6,7 @@
   body {
     background-color: #820ad1;
     display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   main {
     width: 450px;
