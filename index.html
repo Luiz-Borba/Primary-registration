@@ -5,32 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./index.js"></script>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <div id="container">
-      <div id="login">
-        <h1>Faça seu login</h1>
-        <input type="password" placeholder="Digite seu CPF" />
-        <input type="password" placeholder="Digite sua senha" />
-        <button>CONTINUAR</button>
-        <a href="#" onclick="recuperarSenha()"><p>Esqueci minha senha ></p></a>
-        <a href="#"><p onclick="registrarse()">Ainda não sou cliente ></p></a>
+    <main>
+      <div>
+        <label for="Login">Login</label>
+        <input type="text" placeholder="Digite seu E-mail ou CPF" id="Login"/>
       </div>
-    </div>
-    <div id="container2">
-      <a href=""><h1 id="fechar">X</h1></a>
-      <div id="registrese">
-        <h1>Faça seu cadastro</h1>
-        <input type="text" placeholder="Digite seu nome"id="name" />
-        <input type="main" placeholder="Digite seu email" id="mail" />
-        <input type="number" placeholder="Digite seu CPF" id="CPF"/>
-        <input type="number" placeholder="Digite seu telefone" id="fone" />
-        <input type="password" placeholder="crie sua senha" id="senha1"/>
-        <input type="password" placeholder="Digite sua senha novamente" id="senha2"/>
-        <button onclick="receber.cadastrar()">CONTINUAR</button>
-        <a href="#" onclick="fechar()"><p>Entrar</p></a>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Daigite sua Senha" id="password" />
       </div>
-    </div>
+      <div><button>Login</button></div>
+      <div><a href="#">Esqueci minha Senha</a></div>
+    </main>
   </body>
 </html>

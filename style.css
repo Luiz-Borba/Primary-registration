@@ -1,61 +1,22 @@
-body {
-  background-color: #820ad1;
+*{
   margin: 0px;
   padding: 0px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-#container {
-  width: 30%;
-  margin-left: 30%;
+
+body{
+  background-color: #820ad1;
+  display: flex;
+}
+main{
+  width: 450px;
+  height: 600px;
   background-color: white;
-  height: 550px;
-  border-radius: 10px;
-  position: absolute;
+  margin: 80px auto;
+  border-radius: 20px;
 }
-#login {
+div{
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: 10px auto;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-button,
-input {
-  width: 80%;
-  height: 50px;
-}
-a {
-  list-style: none;
-  text-decoration: none;
-}
-#registrese {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin: 10px auto;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-#container2 {
-  width: 30%;
-  margin: 4% auto;
-  background-color: white;
-  height: 750px;
-  border-radius: 10px;
-  visibility: hidden;
-}
-#fechar {
-  margin-left: 90%;
-  margin-top: 10px;
-}
-#recuperarSenha {
-  width: 30%;
-  margin: 4% auto;
-  background-color: white;
-  height: 550px;
-  border-radius: 10px;
-  visibility: hidden;
+  margin: 20px auto;
 }
