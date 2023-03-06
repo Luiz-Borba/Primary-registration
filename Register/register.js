@@ -13,13 +13,14 @@ function verificationPassowrd(passwod1, passwod2) {
     let user = {
       Email: registerEmail.value,
       CPF: regisrterCPF.value,
-      Passwod: passwod1.value,
+      Passwod: passwod1
     };
     dadosUser.push(user);
     registerPassword1.value = "";
     registerPassword2.value = "";
     regisrterCPF.value = "";
     registerEmail.value = "";
+    console.log(dadosUser)
     alert("Cadastro realizado com sucesso !");
   } else {
     registerPassword1.value = "";
