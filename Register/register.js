@@ -4,16 +4,16 @@ const registerPassword1 = document.getElementById("registerPassword1");
 const registerPassword2 = document.getElementById("registerPassword2");
 const sendDados = document.getElementById("register");
 
-let dadosUser = [];
+const dadosUser = [];
 
 sendDados.addEventListener("click", register);
 
 function verificationPassowrd(passwod1, passwod2) {
   if (passwod1 === passwod2) {
     let user = {
-      Email: registerEmail.value,
+      email: registerEmail.value,
       CPF: regisrterCPF.value,
-      Passwod: passwod1,
+      passwod: passwod1,
     };
     dadosUser.push(user);
     registerPassword1.value = "";
