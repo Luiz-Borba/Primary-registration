@@ -8,20 +8,24 @@ const dadosUser = [];
 
 sendDados.addEventListener("click", register);
 
+function registerUser(){
+  let user = {
+    email: registerEmail.value,
+    CPF: regisrterCPF.value,
+    passwod: registerPassword1.value,
+  };
+  dadosUser.push(user);
+  registerPassword1.value = "";
+  registerPassword2.value = "";
+  regisrterCPF.value = "";
+  registerEmail.value = "";
+  console.log(dadosUser);
+  alert("Cadastro realizado com sucesso !");
+}
+
 function verificationPassowrd(passwod1, passwod2) {
   if (passwod1 === passwod2) {
-    let user = {
-      email: registerEmail.value,
-      CPF: regisrterCPF.value,
-      passwod: passwod1,
-    };
-    dadosUser.push(user);
-    registerPassword1.value = "";
-    registerPassword2.value = "";
-    regisrterCPF.value = "";
-    registerEmail.value = "";
-    console.log(dadosUser);
-    alert("Cadastro realizado com sucesso !");
+    registerUser()
   } else {
     registerPassword1.value = "";
     registerPassword2.value = "";
