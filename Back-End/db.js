@@ -1,13 +1,16 @@
-async function connect(){
+const mysql = require('mysql2');
 
-    if(global.connection &&global.connection.this.state !== 'disconnected'){
-        return global.connection;
-    }
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'root',
+  database: 'FristConection'
+});
 
-const mysql = require("mysql2/promisse");
-const connection = await mysql.createConnection("mysql://root:root:3306/FristConection")
-global.connection = connection;
-console.log("Deu boa")
-}
-connect()
-module.exports={}
+connection.connect((err) => {
+  if (err) {
+    console.error('Erro ao conectar ao banco de dados: ', err);
+    return;
+  }
+  console.log('Conexão estabelecida com sucesso!');
+});
