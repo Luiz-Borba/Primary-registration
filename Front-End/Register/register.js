@@ -94,6 +94,7 @@ function verificationEmail(email) {
   if (caracters.test(email) === true) {
     return true;
   } else {
+    alert("Digite um email valido")
     return false;
   }
 }
